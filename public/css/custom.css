@@ -1,0 +1,33 @@
+.mg-right-1 {
+    margin-right: 1em;
+}
+
+.pd-right-0 {
+    padding-right: 0px !important;
+}
+
+.pd-left-0 {
+    padding-left: 0px !important;
+}
+
+.grid-cell {
+    border: lightgray 1px solid;
+    padding: 1em;
+}
+
+.text-dark {
+    color: black;
+}
+
+.text-yellow {
+    color: gold;
+}
+
+.extra-padding {
+    padding: 22px !important;
+}
+
+.banner {
+    background: linear-gradient(to right, #16222a, #3a6073);
+    color: white !important;
+}
