@@ -40,6 +40,7 @@ export default function Home() {
                   </div>
               </div>
         </div>
+      <div class="d-flex justify-content-center">
       <form  className="form-inline" onSubmit={handleSubmit}>
       <div className="form-group mg-right-1">
         <input
@@ -86,6 +87,7 @@ export default function Home() {
 
         
       </form>
+      </div>
       {response.mapa ? (
         <>
         
@@ -106,6 +108,7 @@ export default function Home() {
       )}
 
       <hr />
+      <div class="d-flex justify-content-center">
       <table>
         <tbody>
           {response.mapa ? (
@@ -137,6 +140,7 @@ export default function Home() {
           )}
         </tbody>
       </table>
+      </div>
     </>
   );
 }
